@@ -1,10 +1,10 @@
-const { Client, Intents } = require('discord.js');
-const client = new Client({intents:[Intents.FLAGS.GUILDS,Intents.FLAGS.GUILD_MESSAGE],
+const { Client, Intents, MessageEmbed, Permissions } = require('discord.js');
+const client = new Client({intents:[Intents.FLAGS.GUILDS,Intents.FLAGS.GUILD_MESSAGES],
 });
 
 client.once('ready', (bot)=> {
-    console.log(`${bot.user.username} esta preparado.`);
-    client.user.setActivity('./help para ayuda.', {
+    console.log(`${bot.user.username} esta preparado!`);
+    client.user.setActivity(`.help para ayuda.`, {
         type: "WATCHING"
     });
 });
