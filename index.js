@@ -22,4 +22,4 @@ client.on('messageCreate', async (message) => {
 
 })
 
-client.login('OTU1MTEwMDI4NTc3MjI2ODQ0.Yjc5hw.VJYjg3yCYDkKXwft55WCBaw4Jec')
+client.login('OTU1MTEwMDI4NTc3MjI2ODQ0.Yjc5hw.hX2YmdFa9WGpijL4pM3bIIme6zY')
